@@ -1,0 +1,171 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: snow;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow:hidden;
+  
+}
+.fa-bars{
+    color: #7e7e7e;
+    position: absolute;
+    top: 12px;
+    left: 40px;
+    font-size: 25px;
+
+}
+.info{
+    text-align: left;
+}
+.full-name{
+    position: relative;
+    top: 15px;
+    left: 10px;
+    font-size: 1rem;
+    margin-top: 5px;
+    color: #ffffff;
+}
+.lastmessage{
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    font-size: 1rem;
+    color:#999999 ;
+    margin: 0;
+}
+
+.avatar{
+    float: left;
+    padding: 10px;
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+}
+.chats{
+    margin-top: 70px;
+}
+.chat:hover{
+    background-color: #8774e1;
+}
+.chat{
+    border-radius: 15px;
+    padding: 0;
+    position: relative;
+    left: 5px;
+}
+ 
+.time{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 28px;
+    bottom: 25px;
+    padding: 0;
+    margin: 0;
+    color: #999999;
+}
+.subtitle{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    
+}
+.count{
+    color: #ffffff;
+    border-radius: 50%;
+    position: relative;
+    bottom: 15px;
+    left: 190px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    background-color:#8774e1;
+}
+.fa-magnifying-glass{
+   
+    color: #7e7e7e;
+    margin-top: 10px;
+    position: absolute;
+    top: 12px;
+    left: 110px;
+}
+.profiles{
+    background-color: #4c4c4c;
+    height:100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 30%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background:#4c4c4c ;
+} 
+::-webkit-scrollbar-thumb{
+    background-color: #919191;
+    border-radius: 10px ;
+}
+
+
+
+::placeholder{
+    font-size: 25px;
+    position: absolute;
+    color: #7e7e7e;
+}
+.input-search:focus {
+    outline: none;
+    
+}
+.input-search{
+    color: aliceblue;
+    background-color: #212121;
+    border-style: none;
+    border-color: #212121;
+    position: absolute;
+    top: 3px;
+    left: 130px;
+    font-size: 25px;
+    height: 30px;
+    width: 65%;
+    margin-top: 10px;
+
+}
+
+.back{
+    display: flex;
+    color: aliceblue;
+    background-color: #212121;
+    border-style: none;
+    border-radius: 20px;
+    position: absolute;
+    left: 100px;
+    height: 40px;
+    width: 75%;
+    margin-top: 10px;
+   
+
+}
+
+
+
+
+.nav{
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    width: 30%;
+    height: 50px;
+    background-color: #4c4c4c;
+    z-index: 1;
+}
