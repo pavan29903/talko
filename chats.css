@@ -2,20 +2,20 @@
     text-align: left;
 }
 .full-name{
-    position: relative;
-    top: 15px;
-    left: 10px;
     font-size: 1rem;
-    margin-top: 5px;
     color: #ffffff;
 }
 .lastmessage{
-    position: relative;
-    bottom: 10px;
-    left: 10px;
     font-size: 1rem;
     color:#999999 ;
-    margin: 0;
+    margin: 0; 
+}
+.chatname-time{
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 10px ;
 }
 
 .avatar{
@@ -26,13 +26,23 @@
     border-radius: 50%;
 }
 .chats{
-    
-    margin-top: 70px;
+    width: 100%;
+    margin-top: 20px;
+    height: 100%;
+    overflow-y: none;
+}
+
+.chats:hover{
+    overflow-y: scroll;
+}
+.chats:hover > .chat{
+    width: 100%;
 }
 .chat:hover{
     background-color: #8774e1;
 }
 .chat{
+   width: calc(100% - 10px);
     border-radius: 15px;
     padding: 0;
     position: relative;
@@ -40,10 +50,6 @@
 }
 
 .time{
-    
-    position: relative;
-    left: 320px;
-    bottom: 25px;
     padding: 0;
     margin: 0;
     color: #999999;
@@ -52,15 +58,14 @@
     padding: 0;
     margin: 0;
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
+    padding: 0 20px 0 10px;
     
 }
 .count{
     color: #ffffff;
     border-radius: 50%;
-    position: relative;
-    bottom: 15px;
-    left: 190px;
     width: 24px;
     height: 24px;
     display: flex;
@@ -73,14 +78,14 @@
 }
 
 .profiles{
-    float: left;
+    position: relative;
     background-color: #212121;
     height:100vh;
     margin: 0;
     padding: 0;
     width: calc(30% - 1px);
-    overflow-y: hidden;
-    overflow-x: hidden;
+    /* overflow-y:hidden;
+    overflow-x: hidden; */
     border-right: 1px solid #303030;
 }
 ::-webkit-scrollbar {
@@ -92,9 +97,10 @@
 ::-webkit-scrollbar-thumb{
     background-color: #919191;
     border-radius: 10px ;
-}
+}   
+  
 .profiles:hover{
-    overflow-y: scroll;
-    margin-right: 0;
+    /* overflow-y: scroll; */
+    margin: 0;
 }
 
