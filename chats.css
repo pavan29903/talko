@@ -39,14 +39,14 @@
     width: 100%;
 }
 .chat:hover{
-    background-color: #8774e1;
+    background-color: #4c4c4c;
 }
 .chat{
    width: calc(100% - 10px);
     border-radius: 15px;
-    padding: 0;
-    position: relative;
-    left: 5px;
+    
+    padding-bottom: 12px;
+
 }
 
 .time{
@@ -102,5 +102,8 @@
 .profiles:hover{
     /* overflow-y: scroll; */
     margin: 0;
+}
+.opened-chat{
+    background-color: #8774e1;
 }
 
